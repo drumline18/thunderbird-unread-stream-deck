@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Stream Deck Unread Bridge",
+  "version": "1.0.0",
+  "description": "Send only the combined Inbox unread count to a Stream Deck key on this computer.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "streamdeck-unread@maxo.dev",
+      "strict_min_version": "128.0"
+    }
+  },
+  "permissions": [
+    "accountsRead",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "Actions": [
+    {
+      "Icon": "envelope",
+      "Name": "Unread Inbox",
+      "States": [
+        {
+          "Image": "key",
+          "TitleAlignment": "bottom",
+          "FontSize": 22,
+          "FontStyle": "Bold",
+          "Title": "-"
+        }
+      ],
+      "Tooltip": "Shows the combined Thunderbird Inbox unread count. Press to open Thunderbird.",
+      "UserTitleEnabled": false,
+      "UUID": "com.maxo.thunderbird-unread.inbox"
+    }
+  ],
+  "Author": "Maxim Ouellet",
+  "Category": "Thunderbird Unread",
+  "CategoryIcon": "envelope",
+  "CodePath": "plugin.js",
+  "Description": "Show Thunderbird's unread Inbox count and open it with a press.",
+  "Icon": "envelope",
+  "Name": "Thunderbird Unread",
+  "UUID": "com.maxo.thunderbird-unread",
+  "Version": "1.0.0.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "7.1"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Nodejs": {
+    "Version": "24"
+  }
+}
